@@ -1,9 +1,8 @@
 ## Install
 
 ```
-# cp angr-demo.tar into /
-cd /
-tar xvf angr-demo.tar
+Extract this folder to /
+/etc/service/butterfly/run
 ```
 
 ## Kudos
