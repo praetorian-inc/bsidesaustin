@@ -1,0 +1,17 @@
+Tmux:
+    Ctrl+B + c : New window
+    Ctrl+B + \ : Vertical window split
+    Ctrl+B + - : Horizontal window split
+    Ctrl+B + <hjkl> : Move between windows
+
+Radare:
+    r2 binary : Start the binary in radare2
+    aaa : Analyze all the things in the binary
+    afl : List functions
+    s main : Seek to an address for analysis (i.e. main)
+    VV : Visual mode
+        - hjkl - Arrow keys for movement
+        - q to quit
+
+    ? appended to any commands for lots of usage
+        - ?, a?, af?

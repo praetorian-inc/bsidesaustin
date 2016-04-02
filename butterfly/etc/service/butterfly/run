@@ -1,0 +1,1 @@
+/usr/bin/python2 /usr/local/bin/butterfly.server.py --port=80 --host=0.0.0.0 --unsecure  --cmd=/home/ubuntu/docker/command --login=False

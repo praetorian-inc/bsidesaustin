@@ -1,0 +1,5 @@
+#!/bin/bash
+export HOME=/home/praetorian
+cd $HOME
+clear
+cat README

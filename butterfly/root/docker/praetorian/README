@@ -1,0 +1,20 @@
+██████╗ ██████╗  █████╗ ███████╗████████╗ ██████╗ ██████╗ ██╗ █████╗ ███╗   ██╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗██║██╔══██╗████╗  ██║
+██████╔╝██████╔╝███████║█████╗     ██║   ██║   ██║██████╔╝██║███████║██╔██╗ ██║
+██╔═══╝ ██╔══██╗██╔══██║██╔══╝     ██║   ██║   ██║██╔══██╗██║██╔══██║██║╚██╗██║
+██║     ██║  ██║██║  ██║███████╗   ██║   ╚██████╔╝██║  ██║██║██║  ██║██║ ╚████║
+╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
+                                                                               
+Welcome to our Symbolic Execution demo featuring angr (https://github.com/angr/angr)
+
+Your meta key is: Ctrl+B
+
+New Window: <meta> "c"
+Vertical split: <meta> "\"
+Horizonal split: <meta> "-"
+Move to Window: <meta> NumberOfWindow
+Move between Panes: <meta> hjkl (like in Vim)
+
+Twitter handles:
+@ctfhacker
+@amlweems

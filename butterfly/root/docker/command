@@ -1,0 +1,11 @@
+#!/bin/sh
+
+exec docker run \
+        --cap-drop=ALL \
+        --rm \
+        --interactive \
+        --tty \
+        --workdir=/home/praetorian \
+        --user=praetorian \
+        angr \
+	tmux -2 new-session "/home/praetorian/start; exec /bin/bash"
