@@ -34,14 +34,12 @@ pg = proj.factory.path_group(st, immutable=False)
 """
 Instead of looking for a particular basic block, we will simply avoid the fail case
 """
-pg.explore(avoid=(0x004003a9,))
+pg.explore(find=0x0400d50)
 
 """
-We know that the deadended[4] path is the correct path.
-
-Alternatively, we can loop through the pg.deadended list.
+We know that the found[0] path is the correct path.
 """
-state = pg.deadended[4].state
+state = pg.found[0].state
 print(state.posix.dumps(0))
 
 """

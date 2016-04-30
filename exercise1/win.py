@@ -13,7 +13,7 @@ proj = angr.Project('exercise1')
 """
 Create our symbolic input to pass via argv
 """
-input = claripy.BVS('input', 2 * 8)
+input = claripy.BVS('input', 24 * 8)
 
 """
 Start angr analysis at the entry point of the binary
@@ -24,7 +24,7 @@ pg = proj.factory.path_group(state)
 """
 Try to find a path to our destination basic block
 """
-pg = pg.explore(find=0x400b15)
+pg = pg.explore(find=0x4006da)
 
 """
 Extract our found path's state for analysis

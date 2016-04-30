@@ -13,28 +13,14 @@ int main(int argc, char** argv)
     if(argv[1][8] == 't'){
     if(argv[1][9] == 'o'){
     if(argv[1][10] == '_'){
-    if(argv[1][11] == 'B'){
-    if(argv[1][12] == 'S'){
+    if(argv[1][11] == 'R'){
+    if(argv[1][12] == 'M'){
     if(argv[1][13] == 'I'){
-    if(argv[1][14] == 'D'){
-    if(argv[1][15] == 'E'){
-    if(argv[1][16] == 'S'){
-    if(argv[1][17] == 'A'){
-    if(argv[1][18] == 'u'){
-    if(argv[1][19] == 's'){
-    if(argv[1][20] == 't'){
-    if(argv[1][21] == 'i'){
-    if(argv[1][22] == 'n'){
-    if(argv[1][23] == '!'){
+    if(argv[1][14] == 'S'){
+    if(argv[1][15] == 'C'){
+    if(argv[1][16] == '!'){
         printf("You won!\n");
         return 0;
-    }
-    }
-    }
-    }
-    }
-    }
-    }
     }
     }
     }
